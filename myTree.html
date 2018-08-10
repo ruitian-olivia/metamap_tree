@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html class="no-js"> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Tree chart</title>
+        <link rel="stylesheet" href="myTree.css">
+        <script src="d3.v4.min.js"></script>
+    </head>
+
+    <body>
+        <div id='wrapper'>
+        <div id = 'header'>
+           <h1>Tree Chart</h1>
+        </div>
+        <div id = 'sidebar'>
+            <button onclick="showFunction()">Show details</button>
+            <button onclick="hideFunction()">Hide details</button>
+            <label for="slider">Change depth</label>
+            <input type='range' name='slider' min="0" max='18' id='slider'/>
+        </div>
+        <div id = 'content'></div> 
+        <div id = 'footer'></div>
+        </div>
+        <script src="myTree.js"></script>
+        <script>
+            var treeDepth = 8;
+            var slider = d3.select('#slider').node();
+            //let slider = document.querySelector('#slider');
+            //console.log(document.querySelectorAll('div'));
+            //console.log(slider);
+            slider.addEventListener("change", function(e){
+                //console.log(e.target.value);
+                treeDepth = e.target.value;
+                d3.selectAll('svg').remove();
+                renderTreeChart(treeDepth);
+                //alert(treeDepth);
+            },false);
+
+            renderTreeChart(treeDepth);
+           
+        </script>
+    </body>
+</html>

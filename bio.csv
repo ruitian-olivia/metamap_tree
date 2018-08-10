@@ -1,0 +1,19 @@
+id,value,ave,E1;E2;E3
+biology,672,224,248;236;188
+biology.nothing,62,20,20;25;17
+biology.microbiology,185,61,60;49;76
+biology.microbiology.fungi,139,46,50;34;55
+biology.microbiology.bacteria,46,15,10;15;21
+biology.biochemistry,90,30,37;18;35
+biology.biochemistry.enzyme kinetics,52,17,22;10;20
+biology.biochemistry.enzyme assay,38,12,15;8;15
+biology.physiology,96,32,34;50;12
+biology.physiology.neurology,96,32,34;50;12
+biology.immunology,70,23,25;29;16
+biology.immunology.antibody,33,11,13;9;11
+biology.immunology.therapy,37,12,12;20;5
+biology.genetics,126,42,58;45;23
+biology.genetics.human genome,26,8,9;12;5
+biology.genetics.genomics,100,33,49;33;18
+biology.cell biology,43,14,14;20;9
+biology.cell biology.tissue engineering,43,14,14;20;9
