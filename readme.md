@@ -1,14 +1,11 @@
 # My D3 tree chart
 
 ## introduction
+This is my first tree chart drawn by D3.js
 
-This is intro
+## Demo
+My first tree chart is as follows:
+https://ruitian-olivia.github.io/metamap_tree/
 
-## Project design
 
-design principles...
-
-```js
-import d3 from 'd3'
-```
 
