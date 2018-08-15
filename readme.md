@@ -1,6 +1,6 @@
 # My D3 tree chart
 
-## introduction
+## Introduction
 This is my first tree chart drawn by D3.js
 
 ## Demo
